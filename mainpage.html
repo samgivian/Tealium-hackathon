@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="mainpage.css">
+    <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Tealium Commerce feedback</title>
+</head>
+
+<body>
+
+    <div style="background-color: rgb(51, 153,204 );width:100%;height:42px;">
+
+        <p class="welcome-msg" style="font-family: Arial, Helvetica, sans-serif">Welcome </p>
+
+        <div class="form-language">
+            <label for="select-language">Your Language:</label>
+            <select id="select-language" title="Your Language" onchange="window.location.href=this.value">
+                <option value="http://www.tealiumecommerce.com/?___store=default&amp;___from_store=default"
+                    selected="selected">English</option>
+                <option value="http://www.tealiumecommerce.com/?___store=french&amp;___from_store=default">French
+                </option>
+                <option value="http://www.tealiumecommerce.com/?___store=german&amp;___from_store=default">German
+                </option>
+            </select>
+        </div>
+
+    </div>
+    <!-- Image and text -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light -default" style="margin: auto;">
+        <a class="logo" href="http://www.tealiumecommerce.com/">
+            <img src="http://www.tealiumecommerce.com/skin/frontend/rwd/default/images/media/logo.png"
+                alt="TealiumEcommerce Demo" class="large" style="width:75%;height: 75%;">
+
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" style="float:right">
+                <!--   <li class="nav-item active " style="float:right">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>-->
+                <li>
+
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <hr style="margin-left: 10%;margin-right: 10%;  border-width: 3px; ">
+
+    <div class="boxes" style="margin-left: 10%;margin-right:10%;">
+        <div>
+
+            <div class="d-flex bd-highlight">
+                <div class="p-2 flex-fill bd-highlight">
+                    <div class="card" style="width: 18rem; ;">
+                        <img class="card-img-top" src="../Hackathon/user.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Sample data</h5>
+
+                            <div class="input-group mb-3">
+                                
+
+                            </div> <a href="#" class="btn btn-primary">Get data</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 flex-fill bd-highlight" style="width:75%">
+                    <div class="container">
+                        <h2>Your attributes</h2>
+                        <p><strong>Note:</strong> The data is gathered based on your personalized information </p>
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header " style="background-color:rgb(51, 153,204 );">
+                                    <a class="card-link" data-toggle="collapse" href="#collapseOne" style="color:white">
+
+                                        <span> <img src="../Hackathon/barchart.png"
+                                                style=" height: 50px;  width: 50px;display: inline ">
+                                            <p style="padding-right: 20px;display: inline;"> Average visits per week</p>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="collapse" data-parent="#accordion"
+                                    style="width:100%;">
+                                    <div class="container">
+
+
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                rows="3"></textarea>
+                                        </div>
+                                        <button class="btn btn-primary" type="submit" onclick="savedata()">Submit</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header " style="background-color:rgb(51, 153,204 );">
+                                    <a class="card-link" data-toggle="collapse" href="#collapseTwo" style="color:white">
+
+                                        <span> <img src="../Hackathon/barchart.png"
+                                                style=" height: 50px;  width: 50px;display: inline ">
+                                            <p style="padding-right: 20px;display: inline;"> Average visits per week</p>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-parent="#accordion"
+                                style="width:100%;">
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+                                </div>
+                            </div>
+                         <!--   <div class="card">
+                                <div class="card-header">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                        Collapsible Group Item #3
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="footer">
+            <p>© 2019 Tealium Inc. All Rights Reserved.</p>
+        </div>
+
+</body>
+<script src="textbox.js"></script>
+
+
+       
+</html>
